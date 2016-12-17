@@ -14,7 +14,7 @@ class Same_Node_W_Equal_To_1 extends Simulation {
       .header(HttpHeaderNames.ContentType, HttpHeaderValues.ApplicationJson)
       .body(StringBody(s"""{
           "id"    : "${UUID.randomUUID().toString}",
-          "value" : "to jest test",
+          "value" : "some value",
           "w"     : 1
         }"""))
       .asJSON
