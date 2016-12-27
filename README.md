@@ -20,3 +20,10 @@ This project assume there is already running JustinDB cluster with the following
 
 - cluster consists of 5 physical nodes (e.g. JVM instance) with open HTTP ports: 9000, 9001, 9002, 9003, 9004
 - every single data is replicated to 3 distinct physical nodes
+
+## Run
+### All simulations
+`sbt gatling:test`
+
+### Single simulation
+`sbt gatling:testOnly *TestName*`
